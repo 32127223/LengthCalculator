@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Button x:Name="btnAllClear" Content="清除" HorizontalAlignment="Left" Height="37" Margin="44,33,0,0" VerticalAlignment="Top" Width="99" FontSize="18"/>
+        <Button x:Name="btnAllClear" Content="清除" HorizontalAlignment="Left" Height="37" Margin="44,33,0,0" VerticalAlignment="Top" Width="99" FontSize="18" Click="btnAllClear_Click"/>
         <Label Content="公分" HorizontalAlignment="Left" Margin="96,118,0,0" VerticalAlignment="Top" FontSize="18"/>
         <Label Content="公尺" HorizontalAlignment="Left" Margin="305,118,0,0" VerticalAlignment="Top" FontSize="18"/>
         <Label Content="公里" HorizontalAlignment="Left" Margin="509,118,0,0" VerticalAlignment="Top" FontSize="18"/>
